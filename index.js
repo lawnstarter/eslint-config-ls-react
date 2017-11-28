@@ -27,6 +27,10 @@ module.exports = {
       'off',
       'always',
     ],
+    'import/prefer-default-export': [
+      'off',
+      'always',
+    ],
     'lodash/identity-shorthand': [
       'warn',
       'always',
