@@ -17,32 +17,33 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    // lawnstarter common rules
     camelcase: [
-      0,
+      'off',
       'always',
     ],
     'function-paren-newline': [
-      0,
+      'off',
       'always',
     ],
     'lodash/identity-shorthand': [
-      1,
+      'warn',
       'always',
     ],
     'lodash/matches-prop-shorthand': [
-      1,
+      'warn',
       'always',
     ],
     'lodash/matches-shorthand': [
-      1,
+      'warn',
       'always',
     ],
     'lodash/prop-shorthand': [
-      1,
+      'warn',
       'always',
     ],
     'max-len': [
-      1,
+      'warn',
       100,
       {
         ignoreStrings: true,
@@ -51,36 +52,47 @@ module.exports = {
       },
     ],
     curly: [
-      2,
+      'error',
       'all',
     ],
     'space-before-function-paren': [
-      2,
+      'error',
       'never',
     ],
     'linebreak-style': [
-      2,
+      'error',
       'unix',
     ],
     indent: [
-      2,
+      'error',
       4,
       {
-        MemberExpression: 0,
+        MemberExpression: 'off',
       },
     ],
     'comma-dangle': [
-      2,
+      'error',
       {
         objects: 'always-multiline',
         arrays: 'always-multiline',
       },
     ],
     'no-plusplus': [
-      2,
+      'error',
       {
         allowForLoopAfterthoughts: true,
       },
+    ],
+    // react-specific rules
+    'react/jsx-filename-extension': [
+      'off',
+      {
+        extensions: ['.js', '.jsx'],
+      },
+    ],
+    'react/jsx-indent': [
+      'error',
+      'space' | 4, // eslint-disable-line
     ],
   },
 };
