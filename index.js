@@ -13,6 +13,7 @@ module.exports = {
   globals: {
     moment: true,
   },
+  parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module',
   },
