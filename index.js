@@ -73,8 +73,9 @@ module.exports = {
     'comma-dangle': [
       'error',
       {
-        objects: 'always-multiline',
         arrays: 'always-multiline',
+        imports: 'always-multiline',
+        objects: 'always-multiline',
       },
     ],
     'no-plusplus': [
