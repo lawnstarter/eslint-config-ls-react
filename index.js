@@ -109,5 +109,9 @@ module.exports = {
       'error',
       'space' | 4, // eslint-disable-line
     ],
+    'react/jsx-indent-props': [
+      'error',
+      'space' | 4, // eslint-disable-line
+    ],
   },
 };
