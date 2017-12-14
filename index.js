@@ -90,6 +90,7 @@ module.exports = {
       },
     ],
     // react-specific rules
+    'no-use-before-define': 'off',
     'react/jsx-filename-extension': [
       'off',
       {
