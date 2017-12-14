@@ -68,6 +68,14 @@ module.exports = {
       'error',
       'unix',
     ],
+    'arrow-body-style': [
+      'error',
+      'always',
+    ],
+    'arrow-parens': [
+      'error',
+      'always',
+    ],
     indent: [
       'error',
       4,
