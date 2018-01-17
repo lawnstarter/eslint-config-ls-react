@@ -99,6 +99,7 @@ module.exports = {
     ],
     // react-specific rules
     'no-use-before-define': 'off',
+    'class-methods-use-this': 'warn',
     'react/jsx-filename-extension': [
       'off',
       {
