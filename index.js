@@ -106,13 +106,19 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     ],
+    'react/prefer-stateless-function': [
+      'warn',
+      {
+        ignorePureComponents: true,
+      },
+    ],
     'react/jsx-indent': [
       'error',
-      'space' | 4, // eslint-disable-line
+      'space' | 4, // eslint-disable-line no-bitwise
     ],
     'react/jsx-indent-props': [
       'error',
-      'space' | 4, // eslint-disable-line
+      'space' | 4, // eslint-disable-line no-bitwise
     ],
     'react/jsx-curly-spacing': [
       'error',
