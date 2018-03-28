@@ -19,6 +19,10 @@ module.exports = {
   },
   rules: {
     // lawnstarter common rules
+    'max-len': [
+      'off',
+      'always',
+    ],
     camelcase: [
       'off',
       'always',
@@ -46,15 +50,6 @@ module.exports = {
     'lodash/prop-shorthand': [
       'warn',
       'always',
-    ],
-    'max-len': [
-      'warn',
-      100,
-      {
-        ignoreStrings: true,
-        ignoreComments: true,
-        ignoreTemplateLiterals: true,
-      },
     ],
     curly: [
       'error',
