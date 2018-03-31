@@ -35,6 +35,10 @@ module.exports = {
       'off',
       'always',
     ],
+    'lodash/prefer-constant': [
+      'off',
+      'always',
+    ],
     'lodash/identity-shorthand': [
       'warn',
       'always',
