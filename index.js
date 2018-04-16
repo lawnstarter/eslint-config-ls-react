@@ -93,15 +93,5 @@ module.exports = {
       'error',
       'space' | 4, // eslint-disable-line no-bitwise
     ],
-    'react/jsx-curly-spacing': [
-      'error',
-      {
-        when: 'never',
-        children:
-        {
-          when: 'always',
-        },
-      },
-    ],
   },
 };
