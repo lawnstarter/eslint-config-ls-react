@@ -81,5 +81,23 @@ module.exports = {
         ignorePureComponents: true,
       },
     ],
+    'react/jsx-indent': [
+      'error',
+      'space' | 4, // eslint-disable-line no-bitwise
+    ],
+    'react/jsx-indent-props': [
+      'error',
+      'space' | 4, // eslint-disable-line no-bitwise
+    ],
+    'react/jsx-curly-spacing': [
+      'error',
+      {
+        when: 'never',
+        children:
+        {
+          when: 'always',
+        },
+      },
+    ],
   },
 };
