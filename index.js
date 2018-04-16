@@ -9,6 +9,7 @@ module.exports = {
   extends: [
     'airbnb',
     'plugin:lodash/canonical',
+    'prettier',
   ],
   globals: {
     moment: true,
@@ -19,15 +20,7 @@ module.exports = {
   },
   rules: {
     // lawnstarter common rules
-    'max-len': [
-      'off',
-      'always',
-    ],
     camelcase: [
-      'off',
-      'always',
-    ],
-    'function-paren-newline': [
       'off',
       'always',
     ],
@@ -71,25 +64,6 @@ module.exports = {
       'error',
       'always',
     ],
-    'arrow-parens': [
-      'error',
-      'always',
-    ],
-    indent: [
-      'error',
-      4,
-      {
-        MemberExpression: 'off',
-      },
-    ],
-    'comma-dangle': [
-      'error',
-      {
-        arrays: 'always-multiline',
-        imports: 'always-multiline',
-        objects: 'always-multiline',
-      },
-    ],
     'no-plusplus': [
       'error',
       {
@@ -118,16 +92,6 @@ module.exports = {
     'react/jsx-indent-props': [
       'error',
       'space' | 4, // eslint-disable-line no-bitwise
-    ],
-    'react/jsx-curly-spacing': [
-      'error',
-      {
-        when: 'never',
-        children:
-        {
-          when: 'always',
-        },
-      },
     ],
   },
 };
