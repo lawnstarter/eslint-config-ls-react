@@ -60,6 +60,10 @@ module.exports = {
       'error',
       'unix',
     ],
+    'arrow-body-style': [
+      'error',
+      'always',
+    ],
     'no-plusplus': [
       'error',
       {
