@@ -20,11 +20,6 @@ module.exports = {
   },
   rules: {
     // lawnstarter common rules
-    'max-len': [
-      'warn',
-      100,
-      'always',
-    ],
     camelcase: [
       'off',
       'always',
