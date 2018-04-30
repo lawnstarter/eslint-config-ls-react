@@ -3,14 +3,8 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  plugins: [
-    'lodash',
-  ],
-  extends: [
-    'airbnb',
-    'plugin:lodash/canonical',
-    'prettier',
-  ],
+  plugins: ['lodash'],
+  extends: ['airbnb', 'plugin:lodash/canonical', 'prettier'],
   globals: {
     moment: true,
   },
@@ -20,50 +14,24 @@ module.exports = {
   },
   rules: {
     // lawnstarter common rules
-    camelcase: [
-      'off',
-      'always',
-    ],
-    'import/prefer-default-export': [
-      'off',
-      'always',
-    ],
-    'lodash/prefer-constant': [
-      'off',
-      'always',
-    ],
-    'lodash/identity-shorthand': [
-      'warn',
-      'always',
-    ],
-    'lodash/matches-prop-shorthand': [
-      'warn',
-      'always',
-    ],
-    'lodash/matches-shorthand': [
-      'warn',
-      'always',
-    ],
-    'lodash/prop-shorthand': [
-      'warn',
-      'always',
-    ],
-    curly: [
+    camelcase: ['off', 'always'],
+    'import/prefer-default-export': ['off', 'always'],
+    'lodash/prefer-constant': ['off', 'always'],
+    'lodash/identity-shorthand': ['warn', 'always'],
+    'lodash/matches-prop-shorthand': ['warn', 'always'],
+    'lodash/matches-shorthand': ['warn', 'always'],
+    'lodash/prop-shorthand': ['warn', 'always'],
+    'prefer-destructuring': [
       'error',
-      'all',
+      {
+        array: false,
+        object: true,
+      },
     ],
-    'space-before-function-paren': [
-      'error',
-      'never',
-    ],
-    'linebreak-style': [
-      'error',
-      'unix',
-    ],
-    'arrow-body-style': [
-      'error',
-      'always',
-    ],
+    curly: ['error', 'all'],
+    'space-before-function-paren': ['error', 'never'],
+    'linebreak-style': ['error', 'unix'],
+    'arrow-body-style': ['error', 'always'],
     'no-plusplus': [
       'error',
       {
