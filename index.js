@@ -21,6 +21,13 @@ module.exports = {
     'lodash/matches-prop-shorthand': ['warn', 'always'],
     'lodash/matches-shorthand': ['warn', 'always'],
     'lodash/prop-shorthand': ['warn', 'always'],
+    'prefer-destructuring': [
+      'error',
+      {
+        array: false,
+        object: true,
+      },
+    ],
     curly: ['error', 'all'],
     'space-before-function-paren': ['error', 'never'],
     'linebreak-style': ['error', 'unix'],
