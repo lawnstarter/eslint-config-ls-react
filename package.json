@@ -1,11 +1,10 @@
 {
   "name": "eslint-config-ls-react",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "ESLint configuration and dependencies for our React apps",
   "main": "index.js",
   "repository": "https://github.com/lawnstarter/eslint-config-ls-react.git",
   "author": "LawnStarter, Inc. <webmaster@lawnstarter.com>",
-  "private": true,
   "dependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
@@ -14,11 +13,10 @@
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-lodash": "^2.7.0",
-    "eslint-plugin-react": "^7.7.0",
-    "prettier": "^1.12.1"
+    "eslint-plugin-react": "^7.7.0"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
-    "pretty-quick": "^1.4.1"
+    "pretty-quick": "^1.6.0"
   }
 }
