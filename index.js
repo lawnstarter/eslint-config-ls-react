@@ -61,5 +61,6 @@ module.exports = {
       'error',
       'space' | 4, // eslint-disable-line no-bitwise
     ],
+    'lodash/prefer-lodash-method': [2, { ignoreObjects: ['lsNavigationService'] }],
   },
 };
