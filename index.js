@@ -5,9 +5,6 @@ module.exports = {
   },
   plugins: ['lodash'],
   extends: ['airbnb', 'plugin:lodash/canonical', 'prettier'],
-  globals: {
-    moment: true,
-  },
   parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module',
