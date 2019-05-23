@@ -12,7 +12,8 @@ module.exports = {
   rules: {
     // lawnstarter common rules
     camelcase: ['off', 'always'],
-    'import/no-cycle': ['warn', 'always'],
+    // TODO: Change this back to warn
+    'import/no-cycle': ['disable', 'always'],
     // TODO: Change this back to warn
     'react/destructuring-assignment': ['disble', 'always'],
     'jsx-one-expression-per-line': ['off', 'always'],
