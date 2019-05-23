@@ -48,7 +48,7 @@ module.exports = {
       },
     ],
     'react/jsx-one-expression-per-line': ['off', 'always'],
-    'react/destructuring-assignment': ['off', 'always'],
+    'react/destructuring-assignment': ['warn', 'always'],
     'react/jsx-wrap-multilines': ['off', 'always'],
     'react/prefer-stateless-function': [
       'warn',
