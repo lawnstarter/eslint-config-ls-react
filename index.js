@@ -12,9 +12,12 @@ module.exports = {
   rules: {
     // lawnstarter common rules
     camelcase: ['off', 'always'],
+
     // new
-    'import/no-cycle': ['off', 'always'],
+    'import/no-cycle': ['warn', 'always'],
     'react/destructuring-assignment': ['warn', 'always'],
+    'jsx-one-expression-per-line': ['off', 'always'],
+    'react/jsx-wrap-multilines': ['off', 'always'],
 
     'import/prefer-default-export': ['off', 'always'],
     'lodash/prefer-constant': ['off', 'always'],
