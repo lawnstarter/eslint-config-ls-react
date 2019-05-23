@@ -14,6 +14,8 @@ module.exports = {
     camelcase: ['off', 'always'],
     // new
     'import/no-cycle': ['off', 'always'],
+    'react/destructuring-assignment': ['warn', 'always'],
+
     'import/prefer-default-export': ['off', 'always'],
     'lodash/prefer-constant': ['off', 'always'],
     'lodash/identity-shorthand': ['warn', 'always'],
