@@ -14,10 +14,7 @@ module.exports = {
     camelcase: ['off', 'always'],
     // TODO: Change this back to warn
     'import/no-cycle': ['disable', 'always'],
-    // TODO: Change this back to warn
-    'react/destructuring-assignment': ['disble', 'always'],
-    'jsx-one-expression-per-line': ['off', 'always'],
-    'react/jsx-wrap-multilines': ['off', 'always'],
+
     'import/prefer-default-export': ['off', 'always'],
     'lodash/prefer-constant': ['off', 'always'],
     'lodash/identity-shorthand': ['warn', 'always'],
@@ -50,6 +47,10 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     ],
+    'jsx-one-expression-per-line': ['off', 'always'],
+    // TODO: Change this back to warn
+    'react/destructuring-assignment': ['off', 'always'],
+    'react/jsx-wrap-multilines': ['off', 'always'],
     'react/prefer-stateless-function': [
       'warn',
       {
