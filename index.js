@@ -14,6 +14,9 @@ module.exports = {
     camelcase: ['off', 'always'],
     'import/prefer-default-export': ['off', 'always'],
     'lodash/prefer-constant': ['off', 'always'],
+    'import/no-useless-path-segments': ['warn', 'always'],
+    'import/no-extraneous-dependencies': ['warn', 'always'],
+    'import/no-cycle': ['warn', 'always'],
     'lodash/identity-shorthand': ['warn', 'always'],
     'lodash/matches-prop-shorthand': ['warn', 'always'],
     'lodash/matches-shorthand': ['warn', 'always'],
@@ -37,13 +40,16 @@ module.exports = {
     ],
     // react-specific rules
     'no-use-before-define': 'off',
-    'class-methods-use-this': 'warn',
+    'react/jsx-wrap-multilines': ['off', 'always'],
+    'react/jsx-one-expression-per-line': ['off', 'always'],
     'react/jsx-filename-extension': [
       'off',
       {
         extensions: ['.js', '.jsx'],
       },
     ],
+    'class-methods-use-this': 'warn',
+    'react/destructuring-assignment': ['warn', 'always'],
     'react/prefer-stateless-function': [
       'warn',
       {
