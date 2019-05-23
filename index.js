@@ -12,9 +12,9 @@ module.exports = {
   rules: {
     // lawnstarter common rules
     camelcase: ['off', 'always'],
-    // TODO: Change this back to warn
-    'import/no-cycle': ['disable', 'always'],
+    'import/no-cycle': ['warn', 'always'],
     'import/prefer-default-export': ['off', 'always'],
+    'import/no-extraneous-dependencies': ['warn', 'always'],
     'lodash/prefer-constant': ['off', 'always'],
     'lodash/identity-shorthand': ['warn', 'always'],
     'lodash/matches-prop-shorthand': ['warn', 'always'],
@@ -47,7 +47,6 @@ module.exports = {
       },
     ],
     'react/jsx-one-expression-per-line': ['off', 'always'],
-    // TODO: Change this back to warn
     'react/destructuring-assignment': ['off', 'always'],
     'react/jsx-wrap-multilines': ['off', 'always'],
     'react/prefer-stateless-function': [
