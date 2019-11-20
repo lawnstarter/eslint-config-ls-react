@@ -14,7 +14,7 @@ module.exports = {
     camelcase: ['off', 'always'],
     'import/prefer-default-export': ['off', 'always'],
     'lodash/prefer-constant': ['off', 'always'],
-    'import/no-useless-path-segments': ['warn', 'always'],
+    'import/no-useless-path-segments': ['warn'],
     'import/no-extraneous-dependencies': ['warn', 'always'],
     'import/no-cycle': ['warn', 'always'],
     'lodash/identity-shorthand': ['warn', 'always'],

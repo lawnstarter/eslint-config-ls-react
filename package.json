@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-ls-react",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "description": "ESLint configuration and dependencies for our React apps",
     "main": "index.js",
     "repository": "https://github.com/lawnstarter/eslint-config-ls-react.git",
